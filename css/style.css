@@ -134,3 +134,40 @@ img {
     width: 100%;
    }
  }
+
+ @media (max-width: 480px) {
+   .lessons .col{
+    width: 100%;
+   }
+    .row{
+        display: flex;
+        flex: 0 0 auto;
+        flex-wrap: wrap;
+    }
+
+    img{
+        width: 100%;
+    }
+    
+
+    .steps .col {
+        width: 100%;
+    }
+
+    body{
+        background-color: #222222;
+    }
+
+    .why-us{
+        margin-inline: auto;
+        padding-inline: 3.2rem;
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+        margin-top: 4rem;
+    }
+ }   
